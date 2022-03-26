@@ -46,7 +46,7 @@ def html(*args, **kwargs):
     
 @html('body')
 @html('div', width=200, height=100)
-@html('a', href='https://ya.ru/')
+@html('a', href='https://yandex.ru/')
 def to_string(input_value):
     return str(input_value)
 
